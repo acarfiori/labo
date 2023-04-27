@@ -6,7 +6,7 @@ require("data.table")
 require("rpart")
 require("rpart.plot")
 
-setwd("X:\\gdrive\\austral2023v\\" )  #establezco la carpeta donde voy a trabajar
+setwd("C:/Users/ccarl/Documents/labo2023v/src")  #establezco la carpeta donde voy a trabajar
 
 #cargo el dataset
 dataset  <- fread( "./datasets/dataset_pequeno.csv")
@@ -16,7 +16,7 @@ dir.create( "./exp/EA4820/", showWarnings = FALSE )
 setwd( "./exp/EA4820" )
 
 #uso esta semilla para los canaritos
-set.seed(102191)
+set.seed(604997)
 
 #agrego los siguientes canaritos
 for( i in 1:30 ) dataset[ , paste0("canarito", i ) :=  runif( nrow(dataset)) ]
