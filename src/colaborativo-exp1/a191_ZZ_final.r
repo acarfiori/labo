@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Default
+# Experimentos Colaborativos Exp1
 # Workflow  ZZ proceso final
 
 #Necesita para correr en Google Cloud
@@ -17,8 +17,8 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "ZZ6910"
-PARAM$exp_input  <- "HT6510"
+PARAM$experimento  <- "AExpZZ6910"
+PARAM$exp_input  <- "AExpHT6510"
 
 PARAM$modelos  <- 1       #aumentar si se quieren mas modelos
 PARAM$semilla  <- 604997  # siempre se debera probar con 5 semillas, en 5 experimentos distintos, y presentar la media y/o los graficos detallados de las cinco curvas si corresponde
