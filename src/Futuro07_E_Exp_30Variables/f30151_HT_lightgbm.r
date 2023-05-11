@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Exp3
+# Experimentos Colaborativos Futuro 07 Exp1
 # Hyperparameter Tuning  lightgbm
 
 #Necesita para correr en Google Cloud
@@ -31,9 +31,9 @@ options(error = function() {
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "CExpHT6510"
+PARAM$experimento <- "07_E_HT_Ex30Var"
 
-PARAM$exp_input  <- "CExpTS6410"
+PARAM$exp_input  <- "07_E_TS_Ex30Var"
 
 PARAM$lgb_crossvalidation_folds  <- 5  #En caso que se haga cross validation, se usa esta cantidad de folds
 

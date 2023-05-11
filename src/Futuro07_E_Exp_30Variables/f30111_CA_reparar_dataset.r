@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Exp2
+# Experimentos Colaborativos Futuro 07 Exp1
 # Workflow  Catastrophe Analysis
 
 #Necesita para correr en Google Cloud
@@ -15,7 +15,7 @@ require("yaml")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "BExpCA6110"
+PARAM$experimento  <- "07_E_CA_Ex30Var"
 PARAM$dataset  <- "./datasets/competencia_2023.csv.gz"
 
 PARAM$metodo  <- "MachineLearning"     #valores posibles  "MachineLearning"  "EstadisticaClasica" "Ninguno"

@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Exp2
+# Experimentos Colaborativos Futuro 07 Exp1
 
 # Workflow  ZZ proceso final con semillas
 # Este nuevo script fue desarrolado para ayudar a los alumnos en la realizacion de los experimentos colaborativos
@@ -31,12 +31,12 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "BExpZZ6920"
-PARAM$exp_input  <- "BExpHT6510"
+PARAM$experimento  <- "07_E_ZZ_Ex30Var"
+PARAM$exp_input  <- "07_E_HT_Ex30Var"
 
 #Atencion, que se procesan 5 modelos y cada uno con 5 semillas, ajuste a SUS necesidades
-PARAM$modelos_rank  <- c( 1, 2, 5, 10, 50 )  #Que modelos quiero, segun su posicion en el ranking
-PARAM$semillas  <- c( 102191, 200177, 410551, 552581, 892237 ) #reemplazar por las propias semillas
+PARAM$modelos_rank  <- c( 1 )  #Que modelos quiero, segun su posicion en el ranking
+PARAM$semillas  <- c( 604997, 661201, 693569, 790501, 839071, 771349, 771359, 771389, 771401, 771403 ) #reemplazar por las propias semillas
 
 PARAM$kaggle$envios_desde  <-  8000
 PARAM$kaggle$envios_hasta  <- 13500

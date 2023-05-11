@@ -2,5 +2,4 @@ experimento: CA6110
 dataset: ./datasets/dataset_pequeno.csv
 metodo: MachineLearning
 stat:
-  time_start: 20230507 103022
-  time_end: 20230507 103035
+  time_end: 20230510 190813

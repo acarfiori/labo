@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Exp3
+# Experimentos Colaborativos Futuro 07 Exp1
 # Workflow  Feature Engineering historico
 
 #Necesita para correr en Google Cloud
@@ -22,9 +22,9 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "CExpFE6310"
+PARAM$experimento <- "07_E_FE_Ex30Var"
 
-PARAM$exp_input  <- "CExpDR6210"
+PARAM$exp_input  <- "07_E_DR_Ex30Var"
 
 PARAM$lag1  <- TRUE
 PARAM$lag2  <- TRUE

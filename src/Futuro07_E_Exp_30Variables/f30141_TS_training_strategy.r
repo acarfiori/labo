@@ -1,4 +1,4 @@
-# Experimentos Colaborativos Exp3
+# Experimentos Colaborativos Futuro 07
 # Workflow  Training Strategy
 
 #Necesita para correr en Google Cloud
@@ -16,19 +16,19 @@ require("yaml")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "CExpTS6410"
+PARAM$experimento <- "07_E_TS_Ex30Var"
 
-PARAM$exp_input  <- "CExpFE6310"
+PARAM$exp_input  <- "07_E_FE_Ex30Var"
 
 # me salteo los meses duros de pandemia, pero llego hasta 201907 en training
 # entreno en 18 meses
 
-PARAM$future       <- c( 202109 )
-PARAM$final_train  <- c( 202107, 202106, 202105, 202104, 202103, 202102, 202101, 202012, 202011, 202010, 202009, 202008, 202002, 202001, 201912, 201911, 201910, 201909 )
+PARAM$future       <- c( 202107 )
+PARAM$final_train  <- c( 202105, 202104, 202103, 202102, 202101, 202012, 202011, 202010, 202009, 202008, 202002, 202001, 201912, 201911, 201910, 201909, 201908, 201907 )
 
-PARAM$train$training     <- c( 202105, 202104, 202103, 202102, 202101, 202012, 202011, 202010, 202009, 202008, 202002, 202001, 201912, 201911, 201910, 201909, 201908, 201907 )
-PARAM$train$validation   <- c( 202106 )
-PARAM$train$testing      <- c( 202107 )
+PARAM$train$training     <- c( 202103, 202102, 202101, 202012, 202011, 202010, 202009, 202008, 202002, 202001, 201912, 201911, 201910, 201909, 201908, 201907, 201906, 201905 )
+PARAM$train$validation   <- c( 202104 )
+PARAM$train$testing      <- c( 202105 )
 
 # Atencion  0.4  de  undersampling de la clase mayoritaria,  los CONTINUA
 PARAM$train$undersampling  <- 0.4   # 1.0 significa NO undersampling ,  0.1  es quedarse con el 10% de los CONTINUA
