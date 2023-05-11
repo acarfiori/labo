@@ -35,8 +35,8 @@ PARAM$experimento  <- "canZZ6920"
 PARAM$exp_input  <- "canHT6510"
 
 #Atencion, que se procesan 5 modelos y cada uno con 5 semillas, ajuste a SUS necesidades
-PARAM$modelos_rank  <- c( 1, 2, 5, 10, 50 )  #Que modelos quiero, segun su posicion en el ranking
-PARAM$semillas  <- c( 604997, 661201, 693569, 790501, 839071 ) #reemplazar por las propias semillas
+PARAM$modelos_rank  <- c( 1 )  #Que modelos quiero, segun su posicion en el ranking
+PARAM$semillas  <- c( 604997, 661201, 693569, 790501, 839071, 771349, 771359, 771389, 771401, 771403 ) #reemplazar por las propias semillas
 
 PARAM$kaggle$envios_desde  <-  8000
 PARAM$kaggle$envios_hasta  <- 13500
