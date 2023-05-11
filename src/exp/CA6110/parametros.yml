@@ -1,5 +1,7 @@
-experimento: CA6110
-dataset: ./datasets/dataset_pequeno.csv
-metodo: MachineLearning
+experimento: DR6210
+exp_input: CA6110
+variables_intrames: yes
+metodo: rank_cero_fijo
 stat:
-  time_end: 20230510 190813
+  time_start: 20230510 233300
+  time_end: 20230510 233301
