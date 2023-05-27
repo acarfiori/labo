@@ -1,4 +1,4 @@
-# Experimentos Colaborativos 60Var f7
+# Experimentos Colaborativos 60Var f7 final
 # ZZ con semillerio
 
 
@@ -20,12 +20,12 @@ require("lightgbm")
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento  <- "60Var_07_ZZ"
+PARAM$experimento  <- "60VarFinal_07_ZZ"
 PARAM$exp_input  <- "60Var_07_HT"
 
 #Atencion, que cada modelos se procesa con 5 semillas, ajuste a SUS necesidades
-PARAM$modelos_rank  <- c( 13 )  #Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
-PARAM$semillerio  <- 20   # cantidad de semillas a utilizar en el semillerio, podrian ser 50 o 100 para mayor estabilidad
+PARAM$modelos_rank  <- c( 1, 5, 10, 17, 20 )  #Que modelos quiero, segun su posicion en el ranking e la Bayesian Optimizacion, ordenado por ganancia descendente
+PARAM$semillerio  <- 30   # cantidad de semillas a utilizar en el semillerio, podrian ser 50 o 100 para mayor estabilidad
 PARAM$semilla_primos  <- 201107  # se utiliza para generar el vector de  PARAM$semillerio  semillas
 
 PARAM$kaggle$envios_desde  <-  8000L
